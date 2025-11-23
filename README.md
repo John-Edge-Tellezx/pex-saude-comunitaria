@@ -8,3 +8,6 @@ https://john-edge-tellezx.github.io/pex-saude-comunitaria/
 --Relatório do projeto--
 
 https://docs.google.com/document/d/1kCzxtiyJN1bKeVKqHQi3J3yEEiLKsEarvaaa0qxP4e8/edit?usp=sharing
+
+
+Autor: João Vitor Telles
