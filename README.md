@@ -4,10 +4,10 @@ Um pequeno portal web para registro e consulta de atendimentos comunitários em 
 
 Funcionalidades:
 
--Registro de atendimentos (nome, idade, tipo, data).
--Listagem geral dos registros cadastrados.
--Filtros por tipo de atendimento e busca por nome.
--Exportação dos dados para CSV.
+-Registro de atendimentos (nome, idade, tipo, data)
+-Listagem geral dos registros cadastrados
+-Filtros por tipo de atendimento e busca por nome
+-Exportação dos dados para CSV
 
 Tecnologias utilizadas:
 
