@@ -1,1 +1,70 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Saúde Comunitária</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Saúde Comunitária</h1>
+    <p>Registro de atendimentos</p>
+  </header>
 
+  <main>
+    <section class="form-section">
+      <h2>Novo Atendimento</h2>
+      <form id="recordForm">
+        <label>Nome:
+          <input type="text" id="name" required />
+        </label>
+        <label>Idade:
+          <input type="number" id="age" min="0" required />
+        </label>
+        <label>Tipo de atendimento:
+          <select id="type">
+            <option>Orientação</option>
+            <option>Triagem</option>
+            <option>Vacinação</option>
+            <option>Dispensa de Medicamento</option>
+            <option>Encaminhamento</option>
+          </select>
+        </label>
+        <label>Observações:
+          <input type="text" id="notes" />
+        </label>
+        <div class="buttons">
+          <button type="submit">Salvar</button>
+          <button type="button" id="clearForm">Limpar</button>
+        </div>
+      </form>
+    </section>
+
+    <section class="controls">
+      <h2>Registros</h2>
+      <div class="filters">
+        <input id="search" placeholder="Pesquisar por nome..." />
+        <select id="filterType">
+          <option value="">Todos os tipos</option>
+          <option>Orientação</option>
+          <option>Triagem</option>
+          <option>Vacinação</option>
+          <option>Dispensa de Medicamento</option>
+          <option>Encaminhamento</option>
+        </select>
+        <button id="exportCsv">Exportar CSV</button>
+        <button id="seedData">Carregar dados de exemplo</button>
+        <button id="clearAll">Limpar todos registros</button>
+      </div>
+      <div id="recordsList"></div>
+    </section>
+  </main>
+
+  <footer>
+    <small>Protótipo para PEX</small>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
